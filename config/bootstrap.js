@@ -13,6 +13,9 @@ module.exports.bootstrap = function(cb) {
     
     var initial_projects = [
         {
+            name: "public-repo"
+        },
+        {
             name: "hello",
             items: [
                 {
