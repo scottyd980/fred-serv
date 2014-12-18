@@ -95,7 +95,7 @@ module.exports.bootstrap = function(cb) {
                     status: "new",
                     documents: [
                         {
-                            name: "Polite Salutation"
+                            name: "CMA PDF"
                             type: "text"
                             content: "Change of Account Registration- Cash Management Account - Changing to an Individual, Joint or Trust accounts."
                         }
