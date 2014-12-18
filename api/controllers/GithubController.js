@@ -25,7 +25,7 @@ module.exports = {
                     project: projects[0]
                 }
                 Item.create(new_item).exec(function (err, item) {
-                    //sails.log.debug(item);
+                    sails.log.debug(item);
                 });
             } else {
                 sails.log.error(req.body.repository.name);
