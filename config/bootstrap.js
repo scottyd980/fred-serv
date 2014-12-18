@@ -13,28 +13,93 @@ module.exports.bootstrap = function(cb) {
     
     var initial_projects = [
         {
-            name: "public-repo"
+            name: "fred-serv"
         },
         {
-            name: "hello",
+            name: "DocGen SMA - LC and EI",
             items: [
                 {
-                    name: "test item 1",
-                    user: "me",
-                    message: "test message 1",
-                    status: "new"
+                    name: "Welcome letter",
+                    user: "a515303",
+                    message: "I just committed a change to the welcome letter.",
+                    status: "new",
+                    documents: [
+                        {
+                            name: "Polite Salutation"
+                            type: "text"
+                            content: "The welcome letter now provides a more polite salutation to the end customer."
+                        }
+                    ]
                 },
                 {
-                    name: "test item 2",
-                    user: "me",
-                    message: "test message 2",
-                    status: "new"
+                    name: "APS Playback",
+                    user: "a515303",
+                    message: "I just committed a change to the APS Playback.",
+                    status: "new",
+                    documents: [
+                        {
+                            name: "Supplemental Information"
+                            type: "text"
+                            content: "The APS Playback now provides supplemental information to the end customer."
+                        }
+                    ]
                 },
                 {
-                    name: "test deleted item",
-                    user: "me",
-                    message: "test deleted message",
-                    status: "deleted"
+                    name: "Proposal",
+                    user: "a515303",
+                    message: "I just committed a change to the Proposal.",
+                    status: "new",
+                    documents: [
+                        {
+                            name: "SMA Investment Proposal"
+                            type: "text"
+                            content: "The SMA Investment Proposal - Differentiate the SMA product from our other Managed Product offerings."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Change of Registration",
+            items: [
+                {
+                    name: "CoR - Brokerage PDF",
+                    user: "a515303",
+                    message: "I just committed a change to the Brokerage PDF.",
+                    status: "new",
+                    documents: [
+                        {
+                            name: "Brokerage PDF"
+                            type: "text"
+                            content: "Change of Registration - Changing to an Individual, Joint or Custodial Brokerage account."
+                        }
+                    ]
+                },
+                {
+                    name: "CoR - Mutual Fund PDF",
+                    user: "a515303",
+                    message: "I just committed a change to the Mutual Fund PDF.",
+                    status: "new",
+                    documents: [
+                        {
+                            name: "Mutual Fund PDF"
+                            type: "text"
+                            content: "Change of Account Registration- Mutual Fund only Accounts - Changing to an Individual, Joint or Custodial account."
+                        }
+                    ]
+                },
+                {
+                    name: "Cash Management Account PDF",
+                    user: "a515303",
+                    message: "I just committed a change to the CMA PDF.",
+                    status: "new",
+                    documents: [
+                        {
+                            name: "Polite Salutation"
+                            type: "text"
+                            content: "Change of Account Registration- Cash Management Account - Changing to an Individual, Joint or Trust accounts."
+                        }
+                    ]
                 }
             ]
         }
