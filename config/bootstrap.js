@@ -25,8 +25,8 @@ module.exports.bootstrap = function(cb) {
                     status: "new",
                     documents: [
                         {
-                            name: "Polite Salutation"
-                            type: "text"
+                            name: "Polite Salutation",
+                            type: "text",
                             content: "The welcome letter now provides a more polite salutation to the end customer."
                         }
                     ]
@@ -38,8 +38,8 @@ module.exports.bootstrap = function(cb) {
                     status: "new",
                     documents: [
                         {
-                            name: "Supplemental Information"
-                            type: "text"
+                            name: "Supplemental Information",
+                            type: "text",
                             content: "The APS Playback now provides supplemental information to the end customer."
                         }
                     ]
@@ -51,8 +51,8 @@ module.exports.bootstrap = function(cb) {
                     status: "new",
                     documents: [
                         {
-                            name: "SMA Investment Proposal"
-                            type: "text"
+                            name: "SMA Investment Proposal",
+                            type: "text",
                             content: "The SMA Investment Proposal - Differentiate the SMA product from our other Managed Product offerings."
                         }
                     ]
@@ -69,8 +69,8 @@ module.exports.bootstrap = function(cb) {
                     status: "new",
                     documents: [
                         {
-                            name: "Brokerage PDF"
-                            type: "text"
+                            name: "Brokerage PDF",
+                            type: "text",
                             content: "Change of Registration - Changing to an Individual, Joint or Custodial Brokerage account."
                         }
                     ]
@@ -82,8 +82,8 @@ module.exports.bootstrap = function(cb) {
                     status: "new",
                     documents: [
                         {
-                            name: "Mutual Fund PDF"
-                            type: "text"
+                            name: "Mutual Fund PDF",
+                            type: "text",
                             content: "Change of Account Registration- Mutual Fund only Accounts - Changing to an Individual, Joint or Custodial account."
                         }
                     ]
@@ -95,8 +95,8 @@ module.exports.bootstrap = function(cb) {
                     status: "new",
                     documents: [
                         {
-                            name: "CMA PDF"
-                            type: "text"
+                            name: "CMA PDF",
+                            type: "text",
                             content: "Change of Account Registration- Cash Management Account - Changing to an Individual, Joint or Trust accounts."
                         }
                     ]
